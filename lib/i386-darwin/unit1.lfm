@@ -1,0 +1,89 @@
+object Form1: TForm1
+  Left = 221
+  Height = 602
+  Top = 93
+  Width = 367
+  Caption = 'Form1'
+  ClientHeight = 602
+  ClientWidth = 367
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object Image1: TImage
+    Left = 7
+    Height = 180
+    Top = 8
+    Width = 353
+  end
+  object Image2: TImage
+    Left = 7
+    Height = 180
+    Top = 190
+    Width = 353
+  end
+  object Button1: TButton
+    Left = 84
+    Height = 10
+    Top = 376
+    Width = 199
+    Caption = 'write'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 84
+    Height = 16
+    Top = 392
+    Width = 199
+    Caption = 'read'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 8
+    Height = 24
+    Top = 384
+    Width = 43
+    Caption = 'clear'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 138
+    Top = 456
+    Width = 352
+    Lines.Strings = (
+      'Memo1'
+    )
+    ScrollBars = ssVertical
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 312
+    Height = 25
+    Top = 383
+    Width = 48
+    BidiMode = bdRightToLeft
+    Caption = 'delete'
+    ParentBidiMode = False
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 22
+    Top = 416
+    Width = 176
+    TabOrder = 5
+    Text = 'huehue.txt'
+  end
+  object Button5: TButton
+    Left = 192
+    Height = 22
+    Top = 416
+    Width = 168
+    Caption = 'set file name'
+    OnClick = Button5Click
+    TabOrder = 6
+  end
+end
